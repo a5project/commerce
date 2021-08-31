@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^9.2",
         "drupal/ctools": "^3.7",
         "drupal/module_filter": "^3.2",
+        "drupal/pathauto": "^1.8",
         "drush/drush": "^10.6"
     },
     "conflict": {
