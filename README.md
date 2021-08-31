@@ -13,3 +13,7 @@ ddev config --auto
 ddev composer install
 ddev launch
 ```
+
+## Reference
+
+- Drupal 9 Quickstart | https://ddev.readthedocs.io/en/latest/users/cli-usage/#drupal-9-quickstart
