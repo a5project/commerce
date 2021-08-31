@@ -1,0 +1,9 @@
+# 3rd-Party libraries.
+/vendor
+
+# Sensitive data.
+/config
+/private
+
+# IDE files.
+/.idea
