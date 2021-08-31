@@ -1,7 +1,7 @@
 uuid: 7a91230e-c9c9-4964-bd47-ed93121e5db3
-name: 'Drush Site-Install'
-mail: admin@example.com
-slogan: ''
+name: 'Drupal Commerce'
+mail: noreply@a5project.com
+slogan: 'An eCommerce website'
 page:
   403: ''
   404: ''
