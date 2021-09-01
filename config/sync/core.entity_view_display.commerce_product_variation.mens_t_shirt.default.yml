@@ -6,13 +6,25 @@ dependencies:
     - commerce_product.commerce_product_variation_type.mens_t_shirt
     - field.field.commerce_product_variation.mens_t_shirt.attribute_color
     - field.field.commerce_product_variation.mens_t_shirt.attribute_size
+    - field.field.commerce_product_variation.mens_t_shirt.field_image
+    - image.style.large
   module:
     - commerce_price
+    - image
 id: commerce_product_variation.mens_t_shirt.default
 targetEntityType: commerce_product_variation
 bundle: mens_t_shirt
 mode: default
 content:
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   list_price:
     label: above
     type: commerce_price_default

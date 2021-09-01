@@ -1,0 +1,10 @@
+uuid: 0aeb610a-8e8b-4038-b90e-21802c86c940
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.teaser
+label: Teaser
+targetEntityType: commerce_product_variation
+cache: true

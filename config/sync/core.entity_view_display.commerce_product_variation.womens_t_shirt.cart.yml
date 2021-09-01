@@ -7,6 +7,7 @@ dependencies:
     - core.entity_view_mode.commerce_product_variation.cart
     - field.field.commerce_product_variation.womens_t_shirt.attribute_color
     - field.field.commerce_product_variation.womens_t_shirt.attribute_size
+    - field.field.commerce_product_variation.womens_t_shirt.field_image
   module:
     - commerce_price
 id: commerce_product_variation.womens_t_shirt.cart
@@ -35,6 +36,7 @@ content:
 hidden:
   attribute_color: true
   attribute_size: true
+  field_image: true
   product_id: true
   sku: true
   title: true

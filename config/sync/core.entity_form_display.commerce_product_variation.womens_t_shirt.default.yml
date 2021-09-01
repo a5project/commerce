@@ -6,8 +6,11 @@ dependencies:
     - commerce_product.commerce_product_variation_type.womens_t_shirt
     - field.field.commerce_product_variation.womens_t_shirt.attribute_color
     - field.field.commerce_product_variation.womens_t_shirt.attribute_size
+    - field.field.commerce_product_variation.womens_t_shirt.field_image
+    - image.style.thumbnail
   module:
     - commerce_price
+    - image
 id: commerce_product_variation.womens_t_shirt.default
 targetEntityType: commerce_product_variation
 bundle: womens_t_shirt
@@ -15,15 +18,23 @@ mode: default
 content:
   attribute_color:
     type: options_select
-    weight: 5
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     region: content
   attribute_size:
     type: options_select
-    weight: 4
+    weight: 5
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   list_price:
     type: commerce_list_price
@@ -49,7 +60,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 7
     region: content
     third_party_settings: {  }
   title:

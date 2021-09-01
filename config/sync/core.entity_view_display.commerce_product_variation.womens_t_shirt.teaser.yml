@@ -1,26 +1,27 @@
-uuid: 02f7e43b-6cc1-442d-aecf-0583794b355a
+uuid: 04cc9f72-6d8b-421d-ac64-f477b25a8c29
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.womens_t_shirt
+    - core.entity_view_mode.commerce_product_variation.teaser
     - field.field.commerce_product_variation.womens_t_shirt.attribute_color
     - field.field.commerce_product_variation.womens_t_shirt.attribute_size
     - field.field.commerce_product_variation.womens_t_shirt.field_image
-    - image.style.large
+    - image.style.medium
   module:
     - commerce_price
     - image
-id: commerce_product_variation.womens_t_shirt.default
+id: commerce_product_variation.womens_t_shirt.teaser
 targetEntityType: commerce_product_variation
 bundle: womens_t_shirt
-mode: default
+mode: teaser
 content:
   field_image:
     weight: 1
     label: hidden
     settings:
-      image_style: large
+      image_style: medium
       image_link: ''
     third_party_settings: {  }
     type: image
