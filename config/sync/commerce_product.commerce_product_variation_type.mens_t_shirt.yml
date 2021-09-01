@@ -1,0 +1,10 @@
+uuid: 56606a8c-c148-485d-92bd-545a5429f3e2
+langcode: en
+status: true
+dependencies: {  }
+id: mens_t_shirt
+label: 'Men''s T-Shirt'
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

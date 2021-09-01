@@ -1,0 +1,24 @@
+uuid: 72a37dfc-9f3c-42f2-968c-28929eb7203e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.color
+    - commerce_product.commerce_product_variation_type.mens_t_shirt
+    - field.storage.commerce_product_variation.attribute_color
+id: commerce_product_variation.mens_t_shirt.attribute_color
+field_name: attribute_color
+entity_type: commerce_product_variation
+bundle: mens_t_shirt
+label: Color
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - color
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 21265aaa-f028-4cf5-b0b6-01df452068b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+id: mens_t_shirt
+label: 'Men''s T-Shirt'
+type: 'canonical_entities:commerce_product'
+pattern: 'mens-t-shirt/[commerce_product:title]-[commerce_product:product_id]'
+selection_criteria:
+  f455ca96-4b35-4a73-9b8e-4559643214c8:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      mens_t_shirt: mens_t_shirt
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: f455ca96-4b35-4a73-9b8e-4559643214c8
+selection_logic: and
+weight: -7
+relationships: {  }

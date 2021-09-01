@@ -1,0 +1,10 @@
+uuid: c3df1ea7-93da-49dd-932b-cea8857e7022
+langcode: en
+status: true
+dependencies: {  }
+id: womens_t_shirt
+label: 'Women''s T-Shirt'
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

@@ -1,0 +1,12 @@
+uuid: 278550f1-1767-4ee6-a459-05879e115e94
+langcode: en
+status: true
+dependencies: {  }
+id: mens_t_shirt
+label: 'Men''s T-Shirt'
+description: ''
+variationType: mens_t_shirt
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

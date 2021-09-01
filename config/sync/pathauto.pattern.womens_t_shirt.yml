@@ -1,0 +1,23 @@
+uuid: 75ece077-93fb-4586-93d8-da0188a7a498
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+id: womens_t_shirt
+label: 'Women''s T-Shirt'
+type: 'canonical_entities:commerce_product'
+pattern: 'womens-t-shirt/[commerce_product:title]-[commerce_product:product_id]'
+selection_criteria:
+  c4e87248-e109-426c-aa44-13490dbc91da:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      womens_t_shirt: womens_t_shirt
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: c4e87248-e109-426c-aa44-13490dbc91da
+selection_logic: and
+weight: -6
+relationships: {  }

@@ -1,29 +1,27 @@
-uuid: 965c30df-8888-45b8-86c5-02028f8d69e5
+uuid: 8a58d9d9-db25-4d3a-886c-c82dbc5f9557
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_variation_type.default
-    - field.field.commerce_product_variation.default.attribute_color
-    - field.field.commerce_product_variation.default.attribute_size
+    - commerce_product.commerce_product_variation_type.mens_t_shirt
+    - field.field.commerce_product_variation.mens_t_shirt.attribute_color
+    - field.field.commerce_product_variation.mens_t_shirt.attribute_size
   module:
     - commerce_price
-_core:
-  default_config_hash: dDLA40Axom_QFA79EWUpe_bWXWE8I_7MijzPkslbVfA
-id: commerce_product_variation.default.default
+id: commerce_product_variation.mens_t_shirt.default
 targetEntityType: commerce_product_variation
-bundle: default
+bundle: mens_t_shirt
 mode: default
 content:
   attribute_color:
     type: options_select
-    weight: 2
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
   attribute_size:
     type: options_select
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -36,24 +34,32 @@ content:
   price:
     type: commerce_price_default
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   sku:
     type: string_textfield
     weight: -4
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    region: content
   status:
     type: boolean_checkbox
-    weight: 10
     settings:
       display_label: true
-    third_party_settings: {  }
+    weight: 90
     region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   created: true
   uid: true
