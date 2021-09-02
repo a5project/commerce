@@ -20,9 +20,15 @@
  */
 #}
 <article{{ attributes }}>
-  {{- product.variation_field_image -}}
-  {{- product.variation_list_price -}}
-  {{- product.variation_price -}}
-  {{- product.variations -}}
-  {{- product.body -}}
+  <div class="clearfix">
+    <div class="product-image">
+      {{- product.variation_field_image -}}
+    </div>
+    <div class="product-details">
+      {{- product.variation_list_price -}}
+      {{- product.variation_price -}}
+      {{- product.variations -}}
+      {{- product.body -}}
+    </div>
+  </div>
 </article>
