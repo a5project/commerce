@@ -1,0 +1,7 @@
+# THEMENAME.info.yml file for eStore theme.
+name: eStore
+type: theme
+base theme: classy
+description: 'An eCommerce theme.'
+package: Custom
+core_version_requirement: ^8 || ^9
