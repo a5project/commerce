@@ -7,7 +7,7 @@ An eCommerce website based on Drupal 8 and Commerce.
 Clone repository.
 
 ```shell
-git clone git@bitbucket.org:rdasig/commerce.git
+git clone git@bitbucket.org:dasigr/commerce.git
 cd commerce
 ddev config --auto
 ddev composer install
