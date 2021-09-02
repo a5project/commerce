@@ -11,7 +11,7 @@ dependencies:
     - image.style.medium
   module:
     - commerce_price
-    - image
+    - image_delta_formatter
 id: commerce_product_variation.mens_t_shirt.teaser
 targetEntityType: commerce_product_variation
 bundle: mens_t_shirt
@@ -21,10 +21,12 @@ content:
     weight: 2
     label: hidden
     settings:
+      deltas: '0'
       image_style: medium
       image_link: ''
+      deltas_reversed: 0
     third_party_settings: {  }
-    type: image
+    type: image_delta_formatter
     region: content
   list_price:
     label: above

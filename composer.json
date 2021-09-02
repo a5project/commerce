@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9.2",
         "drupal/ctools": "^3.7",
         "drupal/email_registration": "^1.1",
+        "drupal/image_delta_formatter": "^1.1",
         "drupal/module_filter": "^3.2",
         "drupal/pathauto": "^1.8",
         "drupal/webform": "^6.0",
